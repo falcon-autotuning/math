@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.json.schema.json",
+  "name": "falcon-math",
+  "version": "1.0.0",
+  "description": "Mathematical models, nonlinear curve fitting routines, and FFI bindings for Falcon",
+  "homepage": "https://github.com/falcon-autotuning/math",
+  "license": "MPL-2.0",
+  "dependencies": [
+    {
+      "name": "falcon-typing",
+      "version>=": "1.0.0"
+    },
+    {
+      "name": "falcon-core",
+      "version>=": "1.2.12"
+    },
+    {
+      "name": "ensmallen"
+    },
+    {
+      "name": "armadillo"
+    },
+    {
+      "name": "gtest",
+      "version>=": "1.16.0"
+    }
+  ],
+  "builtin-baseline": "9942fb5f996ea431c5ed8fb8d2a53f31d08df62e",
+  "overrides": [
+    {
+      "name": "libpqxx",
+      "version": "7.10.5"
+    },
+    {
+      "name": "xtensor",
+      "version": "0.25.0"
+    },
+    {
+      "name": "xtl",
+      "version": "0.7.5"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+name: math
+version: 1.0.0
+maintainer: Falcon Team
+github: falcon-autotuning/math
+license: "MPL-2.0"
+description: "Mathematical models, nonlinear curve fitting routines, and FFI bindings for Falcon"
+dependencies:
+  - name: array
+    version: 1.0.0
+    local_path: "../std-lib/collections/array/"
+  - name: testing
+    version: 1.0.0
+    local_path: "../testing/"
+
+ffi:
+  build/math-wrapper.so: sha256:1acb1dd1c9e1650a4073e74d8c15f051afcc0dbccbfd170fcd72c879ffb4f559
