@@ -15,6 +15,12 @@
       "version>=": "1.2.12"
     },
     {
+      "name": "falcon-dsl"
+    },
+    {
+      "name": "falcon-routine"
+    },
+    {
       "name": "ensmallen"
     },
     {
