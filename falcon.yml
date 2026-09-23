@@ -13,4 +13,4 @@ dependencies:
     local_path: "../testing/"
 
 ffi:
-  build/math-wrapper.so: sha256:1acb1dd1c9e1650a4073e74d8c15f051afcc0dbccbfd170fcd72c879ffb4f559
+  build/math-wrapper.so: sha256:aeeccdccb12a67cf5520d69c620ef18f15a059c95dfb9455421a0f9e9da23949
